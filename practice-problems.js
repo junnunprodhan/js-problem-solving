@@ -349,3 +349,54 @@
 // const myPositive = stopAtNegative(numbers);
 // console.log(myPositive);
 
+// feet to mile calculator================
+// function feetToMile(feet){
+//    const mile = feet /5280;
+//    const result = mile.toFixed(2);
+//    return parseFloat(result);
+// }
+// const myMile = feetToMile(100000);
+// console.log(myMile);
+
+// brick calculator =========================
+// function brickCalculator(floorQuantity){
+//     const first10floor = 15;
+//     const second10floor = 12;
+//     const restFloor = 10;
+//     const per10Floor = first10floor * 1000;
+//     const perUp10Floor = second10floor * 1000;
+//     const perRestFloor = restFloor * 1000;
+//    if(floorQuantity<=10){
+//     const total = floorQuantity * per10Floor;
+//     return total;
+//    }
+//    else if(floorQuantity<=20){
+//     const first10FloorBrick = per10Floor *10;
+//     const restFloorQuantity = floorQuantity -10;
+//     const restFloorBrick =restFloorQuantity * perUp10Floor;
+//     const total = first10FloorBrick + restFloorBrick;
+//     return total;
+//    }
+//    else{
+//     const first10FloorBrick = per10Floor * 10;
+//     const second10FloorBrick = perUp10Floor * 10;
+//     const restFloorQuantity = floorQuantity - 20;
+//     const restFloorBrick = restFloorQuantity * perRestFloor;
+//     const total = first10FloorBrick + second10FloorBrick + restFloorBrick;
+//     return total;
+//    }
+// }
+// const myBricks= brickCalculator(30);
+// console.log(myBricks);
+
+
+// tinyFriend ================================
+// const names = ['akash', 'batas', 'shakib', 'mim', 'tahmina', 'moazzam', 'rashel'];
+// let myFriend = names[0];
+// for(let i = 0; i<names.length; i++){
+//     const name = names[i];
+//     if(name.length<myFriend.length){
+//         myFriend=name;
+//     }
+// }
+// console.log(myFriend);
